@@ -1,0 +1,28 @@
+.inicio{
+    width: 100%;
+    color: white;
+    background: darkcyan;
+}
+
+.cards{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    padding: 20px;
+}
+
+.card{
+    text-align: center;
+    width: fit-content;
+    color: black;
+    background: white;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card h2{
+    color: wheat;
+    margin: 0;
+}

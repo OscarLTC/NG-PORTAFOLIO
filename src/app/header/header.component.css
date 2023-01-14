@@ -1,0 +1,35 @@
+.header{
+    height: 60px;
+}
+
+.header-content h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.header-content{
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-sections{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.header-sections li{
+    padding: 4px 15px;
+    border-radius: 10px;
+}
+
+.header-content .contacto{
+    font-weight: bold;
+    background-color: darkcyan;
+    color: white;
+}
